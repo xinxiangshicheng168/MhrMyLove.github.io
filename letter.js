@@ -4,7 +4,8 @@ let box = document.querySelector('#box')
 heart.addEventListener('click',function(){
     card.setAttribute("style","opacity:0");
     let x = document.createElement("audio");
-     x.setAttribute("src", "qlx.mp3");
+    //  x.setAttribute("src", "qlx.mp3");
+     x.setAttribute("src", "https://www.joy127.com/url/110937.mp3");
      x.setAttribute("autoplay","autoplay");
 
 // 打字效果
@@ -31,7 +32,7 @@ setTimeout(() => {
         print();
         if(i==str.length)
         clearInterval(printid);
-        },50);  // 190毫秒打一个字，其实细心发现的话，这个项目还是有个小小的bug，无法用语言描述这个bug，如果你想优化的话 有一种简单的方法就是调快打字的速度，这样那个bug看起来就不会很明显,我太菜了 不会改那个bug
+        },70);  // 190毫秒打一个字，其实细心发现的话，这个项目还是有个小小的bug，无法用语言描述这个bug，如果你想优化的话 有一种简单的方法就是调快打字的速度，这样那个bug看起来就不会很明显,我太菜了 不会改那个bug
 }, 5500);  //5500毫秒开始打字
 // 背景出现
 function appearBackground(){
