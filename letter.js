@@ -5,7 +5,7 @@ heart.addEventListener('click',function(){
     card.setAttribute("style","opacity:0");
     let x = document.createElement("audio");
     //  x.setAttribute("src", "qlx.mp3");
-     x.setAttribute("src", "https://www.joy127.com/url/110937.mp3");
+     x.setAttribute("src", "https://www.joy127.com/url/110938.mp3");
      x.setAttribute("autoplay","autoplay");
 
 // 打字效果
