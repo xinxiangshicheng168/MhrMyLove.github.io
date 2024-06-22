@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const card = document.querySelector('.card');
+    
+    card.addEventListener('click', function() {
+        this.classList.toggle('active');
+    });
+});
+
 let heart = document.querySelector('.heart')
 let card = document.querySelector('.card')
 let box = document.querySelector('#box')
