@@ -195,7 +195,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     background-image: url(https://s3.bmp.ovh/imgs/2024/06/22/9807c8dbe17de802.jpg);
     overflow: hidden;
     background-size: cover;
-    font-size: 17px;
+    font-size: 16px;
     font-family: '仿宋';
     transition: opacity 7s;
 }
